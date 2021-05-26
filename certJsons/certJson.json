@@ -1,0 +1,36 @@
+{
+    "certificate_template":"./srcImage/ppt_certificate_template.jpeg",
+    "certificate_template_out":"./outputImage/ppt_certificate_template_out.png",
+    "label_placeholders":[
+        {   
+            "param_name":"user_name",
+            "label":"R.Premanand",
+            "alignmentX":"HORIZONTAL_ALIGN_CENTER",
+            "maxWidth":720,
+            "x":0,
+            "y":240,
+            "font_url":"./fonts/georgia/Georgia.fnt"
+        },
+        {
+            "param_name":"course",
+            "label":"THE EXCELLENCE IN REACTJS",
+            "alignmentX":"HORIZONTAL_ALIGN_CENTER",
+            "maxWidth":720,
+            "x":0,
+            "y":334,
+            "font_url":"./fonts/georgia/Georgia16.fnt"
+        },
+        {
+            "param_name":"date",
+            "label":"20 May 2021",
+            "alignmentX":"HORIZONTAL_ALIGN_CENTER",
+            "maxWidth":233,
+            "x":372,
+            "y":395,
+            "font_url":"./fonts/georgia/Georgia14.fnt"
+        }
+    ]
+    
+
+
+}
