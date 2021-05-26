@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Certificate</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  		
+    </head>
+    <body style="margin:0px;padding:0px;">
+    	<img 
+            onclick="displayxy()" 
+            id="certificate" 
+            src="./FundooCertificateImage1.png" />
+        <br />
+        <hr />
+        <div>
+            <span 
+                style="display:inline-block;border:1px solid #eee; width:200px;" 
+                id="xyDisplayBlock"></span>
+            <button 
+                type="button" 
+                onclick="document.getElementById('xyDisplayBlock').innerHTML=''"
+            >clear</button>
+
+        </div>
+        
+        <script>
+            function displayxy(){
+                console.log(event);
+                document.getElementById('xyDisplayBlock').innerHTML="X: "+ event.x + ", Y: "+event.y
+                
+            }
+            
+        </script>
+
+	</body>
+</html>
